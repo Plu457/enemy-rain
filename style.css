@@ -1,0 +1,14 @@
+/* hero 자세 - front, left, right */
+.hero {
+  background-image: url(./images/hero.png);
+  width: 35px;
+  height: 55px;
+}
+
+.hero-left {
+  background-position: 70px;
+}
+
+.hero-right {
+  background-position: 35px;
+}
