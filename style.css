@@ -1,3 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.start-button {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  padding: 2px 50px;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* game 모드 */
+
+.init {
+  position: absolute;
+  left: 50%;
+}
+
+/* round */
+.round {
+  position: relative;
+  top: -60px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.137);
+}
+
 /* hero 자세 - front, left, right */
 .hero {
   background-image: url(./images/hero.png);
@@ -12,3 +50,8 @@
 .hero-right {
   background-position: 35px;
 }
+
+/* move: 왼쪽, 오른쪽으로 움직이기 */
+/* .left-move {
+  position: absolute;
+} */
